@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo del uso de JavaScript</title>
+</head>
+<body>
+    <script>
+       //5. Crea un script que pida la edad del usuario y le diga después el tiempo que le queda para llegar a los 100 años en días y también en horas, en minutos o en segundos.
+       
+        let edad = prompt("Dime tu edad");
+        let anyos = 100 - parseInt(edad);
+        let dias = anyos*365;
+
+        let horas = dias * 24;
+
+        var minutos = dias * 24 * 60;
+
+        var seconds = dias * 24 * 60 * 60;
+
+
+        alert(`Te quedan para cumplir 100 años:\n${dias} dias,\n${horas} horas,\n${minutos} minutos,\n${seconds} segundos`);
+
+
+       </script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo del uso de JavaScript</title>
+</head>
+<body>
+    <script>
+        //4. Realiza un script que pida 3 números y escriba en pantalla el valor de la media aritmética
+       
+       
+        let resultado =  parseInt(0);
+        let total;
+
+       
+        for (i=0; i<3; i++){
+            let numeros = prompt(`Digita Número ${i+1}`);
+           /* document.write ("El valor de la variable de control es: " + i + "<br>")*/
+
+           resultado  = resultado + parseInt(numeros);  
+           total = i+1;    
+        
+        }
+
+        let media = resultado/total;
+        alert(`La media es: ${resultado}/${total}= ${media}`);
+
+
+       </script> 
+</body>
+</html>
