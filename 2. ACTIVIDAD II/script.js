@@ -1,4 +1,4 @@
-/*//***********************EJERCICIO 1
+//***********************EJERCICIO 1
 var resultado1 = document.getElementById("ej1"); //PARA SELECCIONAR EL <P> DEL HTML
 let num1 = prompt("Ejercicio 1: Digita un número");
 
@@ -152,7 +152,7 @@ if (parseInt(n) < 0) {
     alert("El Factorial de "+n+" es "+factorial);
     resultado9.innerHTML = "El Factorial de "+n+" es "+factorial;
 }
-*/
+
 
 
 //***********************EJERCICIO 10
