@@ -8,7 +8,6 @@ resultado1.innerHTML =  (parseInt(num1) % 2 == 0 ) ? "¡Es Par!" : "¡No es Par!
 if (parseInt(num1) % 2 == 0 ) { alert("¡Es Par!"); }else{ alert("¡No es Par!");};  
     
 
-
 //***********************EJERCICIO 2
 var resultado2 = document.getElementById("ej2"); //PARA SELECCIONAR EL <P> DEL HTML
 let city = prompt("Ejercicio 2 :¿Dónde vives?");
@@ -103,7 +102,6 @@ while((resp6 == "")||(resp6 == "Operación no válida")){
     resultado6.innerHTML = "El Resultado es: "+resp6;
 
 
-
 //***********************EJERCICIO 7
 var resultado7 = document.getElementById("ej7"); //PARA SELECCIONAR EL <P> DEL HTML
 let suma = 0 ;
@@ -152,7 +150,6 @@ if (parseInt(n) < 0) {
     alert("El Factorial de "+n+" es "+factorial);
     resultado9.innerHTML = "El Factorial de "+n+" es "+factorial;
 }
-
 
 
 //***********************EJERCICIO 10
